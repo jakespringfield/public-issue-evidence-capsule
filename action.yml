@@ -1,0 +1,26 @@
+name: Public Issue Evidence Capsule
+description: Capture deterministic public GitHub issue and linked pull request evidence without executing repository code.
+author: Springfield Systems
+
+inputs:
+  issue-url:
+    description: Full public GitHub issue URL, for example https://github.com/owner/repo/issues/123.
+    required: true
+  github-token:
+    description: Optional GitHub token used only after the target repository is independently verified as public.
+    required: false
+    default: ''
+
+outputs:
+  report-path:
+    description: Relative path to the generated Markdown report.
+  evidence-status:
+    description: SNAPSHOT_READY when selected API calls complete, otherwise API_INCOMPLETE.
+
+runs:
+  using: node24
+  main: index.js
+
+branding:
+  icon: clipboard
+  color: blue
