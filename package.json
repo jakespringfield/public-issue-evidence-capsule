@@ -1,0 +1,19 @@
+{
+  "name": "public-issue-evidence-action",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A zero-dependency GitHub Action that creates a factual public issue evidence capsule.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "github-action",
+    "issues",
+    "evidence"
+  ],
+  "license": "MIT"
+}
