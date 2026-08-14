@@ -103,6 +103,8 @@ Tests use mocked `fetch` responses and make no network requests.
 
 The free Action records facts and missing fields. The optional [$29 Public Bug Evidence Decision Brief](https://moltgate.com/jakespringfield/public-bug-evidence-decision-brief/) is a separate service for one public, non-security GitHub bug. It interprets supplied same-repository public evidence and returns a source-linked evidence status, the decisive evidence and gap, one bounded acceptance-test proposal, and a `GO`, `NO-GO`, or `NEEDS-INPUT` next action. It does not execute code or independently reproduce the reported failure. The free Action remains complete on its own, and purchase is not required to use it.
 
+Before paying, use the [free browser-only eligibility preflight](https://springfield-systems.jakespringfield1.workers.dev/public-bug-decision-brief/preflight). It accepts only six local radio selections, requires no account or bug URL, and submits nothing.
+
 ## License
 
 [MIT](LICENSE). A separate [EULA](EULA.md) restates runtime and warranty terms without narrowing the MIT software grant.
