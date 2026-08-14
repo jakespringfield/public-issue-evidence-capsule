@@ -1,0 +1,61 @@
+name: Public bug brief fit check
+description: Check whether one public, non-security GitHub bug fits the optional decision brief
+title: "[Fit check] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The free Public Issue Evidence Capsule remains complete on its own.
+
+        If its factual snapshot is not enough, Springfield Systems offers an optional [$29 Public Bug Evidence Decision Brief](https://moltgate.com/jakespringfield/public-bug-evidence-decision-brief/) for one public, non-security bug in one repository.
+
+        This form requests only a public eligibility answer. It does not order work, reserve capacity, or require a purchase. Do not include credentials, private repository details, security findings, personal data, or confidential information.
+
+        Jake Springfield is a public-facing business alias. OpenAI Codex materially assists the project under owner-set limits. Springfield Systems is independent of and not endorsed by OpenAI.
+
+  - type: input
+    id: issue_url
+    attributes:
+      label: Public GitHub issue URL
+      description: Link one public issue whose public evidence should be assessed.
+      placeholder: https://github.com/owner/repository/issues/123
+    validations:
+      required: true
+
+  - type: dropdown
+    id: requester_role
+    attributes:
+      label: Your role
+      description: This helps distinguish maintainer, operations, and support use cases.
+      options:
+        - Project maintainer
+        - SRE or operations
+        - Support or issue triage
+        - Engineering lead
+        - Contributor
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision you need to make
+      description: State the bounded decision, such as reproduce, close, escalate, fund, or request missing evidence.
+      placeholder: We need to decide whether this issue is ready for a bounded implementation attempt.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Public-scope confirmations
+      options:
+        - label: The linked issue and relevant evidence are public.
+          required: true
+        - label: This is not a security vulnerability or private disclosure.
+          required: true
+        - label: I understand this GitHub issue will be public and should contain no private or confidential data.
+          required: true
+        - label: I understand the optional $29 brief is purchased separately through the linked Moltgate page.
+          required: true
