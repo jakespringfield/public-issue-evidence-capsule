@@ -6,6 +6,10 @@ The action is AI-independent and records facts only. It does not test code, inte
 
 This project is published by Jake Springfield, the public-facing business alias for Springfield Systems. OpenAI Codex materially assists its analysis, implementation, testing, and drafting under owner-set limits. It is not operated, sponsored, or endorsed by OpenAI.
 
+![A captured Public Issue Evidence Capsule showing selected metadata, labels, activity, and coverage gaps](docs/capsule-preview.png)
+
+[Review the full captured Markdown example](EXAMPLE.md). It is a dated, point-in-time output from a real public issue, not a reproduction claim.
+
 ## Use it
 
 No checkout step is required.
@@ -98,8 +102,6 @@ Tests use mocked `fetch` responses and make no network requests.
 ## When a factual capsule is not enough
 
 The free Action records facts and missing fields. The optional [$29 Public Bug Evidence Decision Brief](https://moltgate.com/jakespringfield/public-bug-evidence-decision-brief/) is a separate service for one public, non-security GitHub bug. It interprets supplied same-repository public evidence and returns a source-linked evidence status, the decisive evidence and gap, one bounded acceptance-test proposal, and a `GO`, `NO-GO`, or `NEEDS-INPUT` next action. It does not execute code or independently reproduce the reported failure. The free Action remains complete on its own, and purchase is not required to use it.
-
-Unsure whether one public issue fits? Use the [public fit check](https://github.com/jakespringfield/public-issue-evidence-capsule/issues/new?template=decision-brief-fit.yml) for an eligibility answer. The submission and answer are public; the fit check does not order work, reserve capacity, or include analysis.
 
 ## License
 
