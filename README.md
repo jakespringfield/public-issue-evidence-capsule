@@ -2,9 +2,9 @@
 
 A free, zero-dependency GitHub Action that turns one **public GitHub issue URL** into a deterministic factual evidence capsule. It records issue metadata, labels, assignees, aggregate activity, issue-timeline event counts, public pull request references, and explicit API coverage gaps.
 
-The action is AI-independent and records facts only. It does not test code, interpret whether a bug reproduces, define an acceptance boundary, or recommend a next step. It uses no AI, telemetry, analytics, or third-party external service. Its only network destination is GitHub's own REST API.
+The action is AI-independent and records facts only. It does not test code, interpret whether a bug reproduces, define an acceptance boundary, or recommend a next step. It uses no AI, telemetry, analytics, or external service other than GitHub's own REST API.
 
-This project is published by Springfield Systems, a public-facing business alias. OpenAI Codex materially assists its analysis, implementation, testing, and drafting under owner-set limits. It is not operated, sponsored, or endorsed by OpenAI.
+This project is published by Jake Springfield, the public-facing business alias for Springfield Systems. OpenAI Codex materially assists its analysis, implementation, testing, and drafting under owner-set limits. It is not operated, sponsored, or endorsed by OpenAI.
 
 ## Use it
 
