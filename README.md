@@ -107,9 +107,9 @@ Tests use mocked `fetch` responses and make no network requests.
 
 The free Action records facts and missing fields. The optional $29 Public Bug Evidence Decision Brief is a separate service for one public, non-security GitHub bug. It interprets supplied same-repository public evidence and returns a source-linked evidence status, the decisive evidence and gap, one bounded acceptance-test proposal, and a `GO`, `NO-GO`, or `NEEDS-INPUT` next action. It does not execute code or independently reproduce the reported failure.
 
-Ordering is temporarily unavailable while the seller account is migrated to the Jake-only account. Do not pay through any previous Moltgate link. The free Action remains complete on its own, and purchase is not required to use it.
+Verified $29 checkout is live on the Jake-only seller account, but it is exposed only after the browser-only preflight appears eligible. The free Action remains complete on its own, and purchase is not required to use it.
 
-[Check eligibility free](https://springfield-systems.jakespringfield1.workers.dev/public-bug-decision-brief/preflight) using six fixed browser-only questions. No URL, account, or submission is required for the check. Only an eligible result reveals the public scope-review form. GitHub sign-in is then required, the submission and answer are public, and the form creates no order, payment obligation, reservation, or work. The only URLs requested are the public repository and issue URLs; security details, private data, logs, attachments, and prose are prohibited. The form records a structured price-intent signal for later eligibility review, but it does not reopen checkout.
+[Check eligibility free](https://springfield-systems.jakespringfield1.workers.dev/public-bug-decision-brief/preflight) using six fixed browser-only questions. No URL, account, or submission is required for the check. Only an eligible result reveals the verified checkout and a separate public scope-review option. GitHub sign-in is required only for the optional review, its submission and answer are public, and it creates no order, payment obligation, reservation, or work. The only URLs requested there are the public repository and issue URLs; security details, private data, logs, attachments, and prose are prohibited.
 
 ## License
 
