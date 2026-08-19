@@ -7,9 +7,9 @@ body:
       value: |
         This issue and later edits are public and may be indexed. Enter only the two canonical public GitHub URLs requested below. Do not add prose, names, email addresses, credentials, private or personal data, customer data, private links, logs, attachments, unpublished code, vulnerability or exploit details, or financial information.
 
-        This scope review is non-binding. It creates no order, payment obligation, reservation, or work. Verified checkout is currently unavailable. Do not pay through any previous Moltgate link.
+        This scope review is non-binding. It creates no order, payment obligation, reservation, or work and does not link to checkout. Verified checkout, when separately chosen after the browser-only preflight, is hosted only on the Jake-only Moltgate profile.
 
-        If separately ordered after verified checkout reopens, the fixed $29 USD brief covers one public, non-security bug in one public repository. It reviews cited public evidence and returns a source-linked evidence status, the decisive evidence and gap, one bounded acceptance-test proposal, and a GO, NO-GO, or NEEDS-INPUT next decision.
+        If separately ordered through verified checkout, the fixed $29 USD brief covers one public, non-security bug in one public repository. It reviews cited public evidence and returns a source-linked evidence status, the decisive evidence and gap, one bounded acceptance-test proposal, and a GO, NO-GO, or NEEDS-INPUT next decision.
   - type: input
     id: repository_url
     attributes:
@@ -44,7 +44,7 @@ body:
       label: $29 purchase intent
       description: This is a public, non-confidential intent signal, not an order or payment.
       options:
-        - At $29 USD, I have purchase intent if this public scope is eligible and verified checkout reopens
+        - At $29 USD, I have purchase intent if this public scope is eligible; checkout terms are accepted separately
         - Review public scope only, no purchase intent yet
     validations:
       required: true
