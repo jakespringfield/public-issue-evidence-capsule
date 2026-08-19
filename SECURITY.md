@@ -11,6 +11,10 @@ The Action makes only GitHub REST `GET` requests. It does not invoke a shell, cl
 
 ## Reporting a vulnerability
 
-Do not publish credentials, exploit details, or private repository data in a public issue. Use the published repository's private vulnerability reporting channel under its Security tab. If that channel is unavailable, ask the maintainer for a private reporting route without including sensitive details in the request.
+Never use the public scope-review form for a vulnerability, exploit, security concern, credential, or private repository data.
+
+For a vulnerability in Public Issue Evidence Capsule itself, use this repository's private vulnerability reporting channel under its Security tab. If that channel is unavailable, ask the maintainer for a private reporting route without including sensitive details in the request.
+
+For a suspected vulnerability in the third-party repository named in an Action run or scope request, use that affected project's official security channel. Do not disclose the details in this repository.
 
 Include the Action commit SHA, runner type, minimal reproduction, expected boundary, and whether the report exposed content that should have remained inert. Remove all tokens and private data.

@@ -11,4 +11,6 @@ Before requesting support:
 
 Open a support issue in the repository where this Action is published. Include the Action commit SHA, public issue URL, runner operating system, evidence status, and redacted error text. Never include tokens, private URLs, private issue content, or complete workflow logs that may contain secrets.
 
+Blank issues remain enabled for Action support. The structured Public Bug Evidence Decision Brief scope-review form is separate from support and must not be used for Action defects or security reports.
+
 Support covers defects in the factual capsule. Interpretation of current status, reproduction evidence, acceptance boundaries, and recommended next steps is intentionally outside the free Action's scope.

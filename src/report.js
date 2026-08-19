@@ -110,17 +110,6 @@ function renderReport(snapshot) {
     '',
   );
 
-  if (snapshot.evidenceStatus === 'SNAPSHOT_READY') {
-    lines.push(
-      '## Optional paid interpretation',
-      '',
-      'Facts captured. The optional $29 Public Bug Evidence Decision Brief is temporarily unavailable while its seller account is migrated to the Jake-only account. Do not pay through any previous Moltgate link.',
-      '',
-      'The free Action is complete on its own. It does not diagnose, independently reproduce, or recommend a fix, and purchase is not required.',
-      '',
-    );
-  }
-
   return lines.join('\n');
 }
 

@@ -109,6 +109,8 @@ The free Action records facts and missing fields. The optional $29 Public Bug Ev
 
 Ordering is temporarily unavailable while the seller account is migrated to the Jake-only account. Do not pay through any previous Moltgate link. The free Action remains complete on its own, and purchase is not required to use it.
 
+[Check eligibility free](https://springfield-systems.jakespringfield1.workers.dev/public-bug-decision-brief/preflight) using six fixed browser-only questions. No URL, account, or submission is required for the check. Only an eligible result reveals the public scope-review form. GitHub sign-in is then required, the submission and answer are public, and the form creates no order, payment obligation, reservation, or work. The only URLs requested are the public repository and issue URLs; security details, private data, logs, attachments, and prose are prohibited. The form records a structured price-intent signal for later eligibility review, but it does not reopen checkout.
+
 ## License
 
 [MIT](LICENSE). A separate [EULA](EULA.md) restates runtime and warranty terms without narrowing the MIT software grant.

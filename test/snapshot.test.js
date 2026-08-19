@@ -119,12 +119,7 @@ test('collectSnapshot uses the current REST version, keeps the public gate unaut
   assert.equal(firstReport, secondReport);
   assert.match(firstReport, /\| Title \| Pipe &#124; title &lt;safe&gt; \|/);
   assert.match(firstReport, /acme\/widget#9/);
-  assert.doesNotMatch(firstReport, /moltgate\.com\/jakespringfield/i);
-  assert.match(firstReport, /Public Bug Evidence Decision Brief/);
-  assert.match(firstReport, /temporarily unavailable while its seller account is migrated/i);
-  assert.match(firstReport, /Do not pay through any previous Moltgate link/i);
-  assert.match(firstReport, /The free Action is complete on its own/);
-  assert.match(firstReport, /purchase is not required/);
+  assert.doesNotMatch(firstReport, /\$29|Moltgate|brief-scope-review|paid interpretation|purchase/i);
   assert.doesNotMatch(firstReport, /recommendation|acceptance verdict|next-step advice/i);
 });
 

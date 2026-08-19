@@ -1,0 +1,65 @@
+name: $29 Public Bug Evidence Decision Brief scope review
+description: Request a non-binding public scope review for one public, non-security GitHub bug.
+title: "Public Bug Evidence Decision Brief scope review"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue and later edits are public and may be indexed. Enter only the two canonical public GitHub URLs requested below. Do not add prose, names, email addresses, credentials, private or personal data, customer data, private links, logs, attachments, unpublished code, vulnerability or exploit details, or financial information.
+
+        This scope review is non-binding. It creates no order, payment obligation, reservation, or work. Verified checkout is currently unavailable. Do not pay through any previous Moltgate link.
+
+        If separately ordered after verified checkout reopens, the fixed $29 USD brief covers one public, non-security bug in one public repository. It reviews cited public evidence and returns a source-linked evidence status, the decisive evidence and gap, one bounded acceptance-test proposal, and a GO, NO-GO, or NEEDS-INPUT next decision.
+  - type: input
+    id: repository_url
+    attributes:
+      label: Public repository URL
+      description: Canonical URL only, exactly https://github.com/OWNER/REPOSITORY. Do not add a query, fragment, private link, or prose.
+      placeholder: https://github.com/OWNER/REPOSITORY
+    validations:
+      required: true
+  - type: input
+    id: issue_url
+    attributes:
+      label: Public bug issue URL
+      description: Canonical URL only, exactly https://github.com/OWNER/REPOSITORY/issues/NUMBER. It must be public, non-security, and in the repository above.
+      placeholder: https://github.com/OWNER/REPOSITORY/issues/123
+    validations:
+      required: true
+  - type: dropdown
+    id: target_decision
+    attributes:
+      label: Target decision
+      description: Select the buyer decision the brief should support. The service will not perform the selected action.
+      options:
+        - Decide whether to reproduce the reported bug
+        - Decide whether to close the issue
+        - Decide whether to escalate the issue
+        - Decide whether to fund work on the issue
+    validations:
+      required: true
+  - type: dropdown
+    id: price_intent
+    attributes:
+      label: $29 purchase intent
+      description: This is a public, non-confidential intent signal, not an order or payment.
+      options:
+        - At $29 USD, I have purchase intent if this public scope is eligible and verified checkout reopens
+        - Review public scope only, no purchase intent yet
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Public-only boundaries
+      options:
+        - label: I am authorized to nominate this public repository and issue, and confirm it concerns one public, non-security software bug.
+          required: true
+        - label: I confirm the issue title and URL fields contain no credentials, private, personal or customer data, private links, unpublished code, logs, attachments, vulnerability details, or financial information.
+          required: true
+        - label: I understand the brief reviews public evidence only and does not execute code, independently reproduce, patch, comment, access private repositories, continuously monitor, provide legal or security advice, or guarantee an outcome.
+          required: true
+        - label: I understand Jake Springfield is a public-facing business alias for Springfield Systems, OpenAI Codex materially assists source organization, review, and drafting, and no separate human review is included.
+          required: true
+        - label: I understand this issue creates no order, payment obligation, reservation, or work; no work starts and no payment is due unless eligible scope and active checkout terms are accepted separately.
+          required: true

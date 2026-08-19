@@ -12,8 +12,16 @@ The token is held in runner process memory long enough to send authorized reques
 
 Processing occurs on the user's GitHub Actions runner. The Action writes `public-issue-evidence.md`, the GitHub step summary, and two GitHub Action outputs. Repository and workflow settings control log, artifact, and summary retention.
 
-There is no AI, telemetry, analytics, tracking pixel, vendor endpoint, or hosted processing service. The only network destination in the Action code is GitHub's REST API. GitHub processes those requests under the user's relationship with GitHub.
+There is no AI runtime, telemetry, analytics, tracking pixel, or non-GitHub vendor endpoint in the Action. The only network destination in the Action code is GitHub's REST API. GitHub processes those requests under the user's relationship with GitHub.
 
 ## Data minimization
 
 The report includes selected public metadata only. It excludes issue bodies, comment bodies, commit messages, and pull request bodies. Timeline requests exclude commented and committed event payloads. API-derived text is encoded before being written to Markdown.
+
+## Public scope-review intake
+
+The optional scope-review route is a public GitHub issue form, separate from Action execution. GitHub sign-in is required. The submitter's GitHub username, the two public GitHub URLs, fixed-option selections, confirmations, issue history, and later edits are public and are processed and retained by GitHub under GitHub's policies. Editing or deleting an issue does not guarantee removal from GitHub history, caches, or third-party indexes.
+
+Springfield Systems uses a submitted form only to revalidate public visibility and scope, reply publicly with an eligibility result, and record non-binding price intent. The form is not an order, payment, reservation, or start of work. The public issue can be reviewed without creating a separate local copy. GitHub's copy, issue history, caches, and third-party indexes remain subject to GitHub and those third parties rather than this repository's Action runtime.
+
+Do not submit names, email addresses, credentials, private or personal data, customer data, private links, logs, attachments, unpublished code, security or vulnerability details, or financial information.
