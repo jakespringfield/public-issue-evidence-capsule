@@ -114,9 +114,7 @@ function renderReport(snapshot) {
     lines.push(
       '## Optional paid interpretation',
       '',
-      'Facts captured. Still unclear whether to close, reproduce, escalate, or fund this issue? The optional [$29 Public Bug Evidence Decision Brief](https://moltgate.com/jakespringfield/public-bug-evidence-decision-brief/) is a separate service for one public, non-security GitHub bug. It reviews supplied same-repository public evidence and returns a source-linked evidence status, the decisive evidence and gap, one bounded acceptance-test proposal, and a `GO`, `NO-GO`, or `NEEDS-INPUT` next action within two business days after a complete eligible request.',
-      '',
-      'Submit through the linked Moltgate offer. If this Action run belongs to the issue repository and fits the four-URL intake cap, it may be supplied as one of the optional public evidence URLs.',
+      'Facts captured. The optional $29 Public Bug Evidence Decision Brief is temporarily unavailable while its seller account is migrated to the Jake-only account. Do not pay through any previous Moltgate link.',
       '',
       'The free Action is complete on its own. It does not diagnose, independently reproduce, or recommend a fix, and purchase is not required.',
       '',

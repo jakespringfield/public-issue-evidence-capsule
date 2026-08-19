@@ -105,7 +105,9 @@ Tests use mocked `fetch` responses and make no network requests.
 
 ## When a factual capsule is not enough
 
-The free Action records facts and missing fields. The optional [$29 Public Bug Evidence Decision Brief](https://moltgate.com/jakespringfield/public-bug-evidence-decision-brief/) is a separate service for one public, non-security GitHub bug. It interprets supplied same-repository public evidence and returns a source-linked evidence status, the decisive evidence and gap, one bounded acceptance-test proposal, and a `GO`, `NO-GO`, or `NEEDS-INPUT` next action. It does not execute code or independently reproduce the reported failure. The free Action remains complete on its own, and purchase is not required to use it.
+The free Action records facts and missing fields. The optional $29 Public Bug Evidence Decision Brief is a separate service for one public, non-security GitHub bug. It interprets supplied same-repository public evidence and returns a source-linked evidence status, the decisive evidence and gap, one bounded acceptance-test proposal, and a `GO`, `NO-GO`, or `NEEDS-INPUT` next action. It does not execute code or independently reproduce the reported failure.
+
+Ordering is temporarily unavailable while the seller account is migrated to the Jake-only account. Do not pay through any previous Moltgate link. The free Action remains complete on its own, and purchase is not required to use it.
 
 ## License
 
