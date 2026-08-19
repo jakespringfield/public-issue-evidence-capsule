@@ -21,10 +21,11 @@ test('public scope-review intake is structured, non-binding, and privacy bounded
   assert.match(form, /name: \$29 Public Bug Evidence Decision Brief scope review/);
   assert.match(form, /This issue and later edits are public and may be indexed/);
   assert.match(form, /creates no order, payment obligation, reservation, or work/i);
-  assert.match(form, /do not pay through any previous Moltgate link/i);
+  assert.match(form, /does not link to checkout/i);
+  assert.match(form, /Jake-only Moltgate profile/i);
   assert.match(form, /OpenAI Codex materially assists/i);
   assert.match(form, /no separate human review is included/i);
-  assert.match(form, /At \$29 USD, I have purchase intent if this public scope is eligible and verified checkout reopens/);
+  assert.match(form, /At \$29 USD, I have purchase intent if this public scope is eligible; checkout terms are accepted separately/);
   assert.match(form, /one public, non-security bug in one public repository/i);
   assert.deepEqual(
     [...form.matchAll(/^\s+id: ([a-z_]+)$/gm)].map((match) => match[1]),
@@ -59,7 +60,7 @@ test('owned README routes through preflight while generated reports stay non-pro
   assert.doesNotMatch(report, new RegExp(scopeReviewUrl.replace(/[.?]/g, '\\$&')));
   assert.doesNotMatch(readme, /moltgate\.com\/jakespringfield/i);
   assert.doesNotMatch(report, /moltgate\.com\/jakespringfield/i);
-  assert.match(readme, /The only URLs requested are the public repository and issue URLs/i);
-  assert.match(readme, /does not reopen checkout/i);
-  assert.doesNotMatch(report, /\$29|scope review|checkout|paid brief|purchase/i);
+  assert.match(readme, /The only URLs requested there are the public repository and issue URLs/i);
+  assert.match(readme, /Only an eligible result reveals the verified checkout/i);
+  assert.doesNotMatch(report, /\$29|Moltgate|scope review|checkout|preflight|paid brief|purchase/i);
 });
